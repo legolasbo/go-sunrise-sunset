@@ -13,7 +13,7 @@ type APIData struct {
 	Sunrise                   string `json:"sunrise"`
 	Sunset                    string `json:"sunset"`
 	Solarnoon                 string `json:"solar_noon"`
-	DayLength                 string `json:"day_length"`
+	DayLength                 float32 `json:"day_length"`
 	CivilTwilightBegin        string `json:"civil_twilight_begin"`
 	CivilTwilightEnd          string `json:"civil_twilight_end"`
 	NauticalTwilightBegin     string `json:"nautical_twilight_begin"`
